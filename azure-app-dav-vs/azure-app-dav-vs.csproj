@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_dav_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/4c05dd45-35cc-4531-b922-cda5c066db2a/resourceGroups/az-group-test02/providers/microsoft.insights/components/azure-dav-ci</ApplicationInsightsResourceId>
+    <UserSecretsId>34b10761-80d6-43ac-a0fe-08bb436462e8</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
