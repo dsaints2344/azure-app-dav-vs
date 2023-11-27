@@ -56,7 +56,7 @@
                     @Html.ActionLink("Details", "Details", new { industry = item.Industry, id = item.RowKey }) |
                     <form asp-action="Delete">
                         <input type="hidden" value="@item.RowKey" name="id"/>
-                        <input type="hidden" value="@item.Industry" name="id"/>
+                        <input type="hidden" value="@item.Industry" name="industry"/>
                         <input type="submit" value="Delete" class="btn btn-danger" />
                     </form>
                     @Html.ActionLink("Delete", "Delete", new { industry = item.Industry, id = item.RowKey })
