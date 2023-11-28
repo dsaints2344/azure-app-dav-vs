@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC.Azure.Storage.Demo", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBus.Demo", "Console.ServiceBus.Demo\Console.ServiceBus.Demo.csproj", "{96590237-B356-4619-9CCE-F406F6ECE32F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusConsumer.Demo", "Console.ServiceBusConsumer.Demo\Console.ServiceBusConsumer.Demo.csproj", "{BD2F4AFC-9CC6-49D6-91F1-E36226D3D790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{96590237-B356-4619-9CCE-F406F6ECE32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96590237-B356-4619-9CCE-F406F6ECE32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96590237-B356-4619-9CCE-F406F6ECE32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2F4AFC-9CC6-49D6-91F1-E36226D3D790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2F4AFC-9CC6-49D6-91F1-E36226D3D790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2F4AFC-9CC6-49D6-91F1-E36226D3D790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2F4AFC-9CC6-49D6-91F1-E36226D3D790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
